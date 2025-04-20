@@ -1,0 +1,36 @@
+{
+    "data": {
+        "notificationList": [
+            {
+                "title": "SKY10135796 nömrəli sifarişiniz ləğv edilib",
+                "message": "Ölçünü düzgün qeyd etməmisiniz ",
+                "createdAt": "2025-04-18T13:59:00Z",
+                "isRead": false
+            },
+            {
+                "title": "SKY10135795 nömrəli sifarişiniz təsdiq edilib",
+                "message": "Sifarişiniz tezliklə sizə çatdırlacaq",
+                "createdAt": "2025-04-13T11:29:10Z",
+                "isRead": false
+            },
+            {
+                "title": "SKY10135795 nömrəli sifarişiniz haqqinda",
+                "message": "Sifarişiniz tezliklə nese olacaq amma bilmirik ne olacaqdi, bunun ucun gozleyin biraz sebrli olun. Sebriniz olsun!",
+                "createdAt": "2025-04-09T09:11:59Z",
+                "isRead": true
+            },
+            {
+                "title": "SKY10135795 nömrəli sifarişiniz haqqinda",
+                "message": "Sifarişiniz tezliklə nese olacaq amma bilmirik ne olacaqdi, bunun ucun gozleyin biraz sebrli olun. Sebriniz olsun!",
+                "createdAt": "2025-04-09T09:11:59Z",
+                "isRead": true
+            },
+            {
+                "title": "SKY10135795 nömrəli sifarişiniz haqqinda",
+                "message": "Sifarişiniz tezliklə nese olacaq amma bilmirik ne olacaqdi, bunun ucun gozleyin biraz sebrli olun. Sebriniz olsun!",
+                "createdAt": "2025-04-09T09:11:59Z",
+                "isRead": true
+            }
+        ]
+    }
+}
