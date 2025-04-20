@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol TrendyOlAPIService {
+    
+func fetchTrendyolNews(with request: TrendyOlModel.Request, completion: @escaping (Result<TrendyOlModel.Response, Error>) -> Void)
+}

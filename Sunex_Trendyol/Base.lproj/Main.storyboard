@@ -1,24 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Ol-kO-pxi">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Sunex_Trendyol" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zQY-Kv-suC">
+                                <rect key="frame" x="16" y="122.99999999999999" width="361" height="34.333333333333329"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IyI-Fi-cC2">
+                                        <rect key="frame" x="0.0" y="0.0" width="170.66666666666666" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="Color"/>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sunex"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Du1-MJ-vdS">
+                                        <rect key="frame" x="190.66666666666663" y="0.0" width="170.33333333333337" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="collectionviewBG"/>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Trendyol"/>
+                                        <connections>
+                                            <action selector="trendyolButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Bg-TB-wY3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1HH-vR-gTP">
+                                <rect key="frame" x="0.0" y="177.33333333333337" width="393" height="531"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="8TI-WX-RyD"/>
+                                    <constraint firstAttribute="height" constant="531" id="gkq-0Z-Lbt"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1IC-cw-KHS">
+                                    <size key="itemSize" width="177" height="130"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zrb-tW-tNE">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UaY-iU-y8Y">
+                                            <rect key="frame" x="0.0" y="0.0" width="177" height="130"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" name="collectionviewBG"/>
+                                        <size key="customSize" width="177" height="130"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zQY-Kv-suC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="8Sn-wJ-2Wz"/>
+                            <constraint firstItem="zQY-Kv-suC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hca-cQ-hG8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zQY-Kv-suC" secondAttribute="trailing" constant="16" id="SUW-iz-dPZ"/>
+                            <constraint firstItem="1HH-vR-gTP" firstAttribute="top" secondItem="zQY-Kv-suC" secondAttribute="bottom" constant="20" id="YYS-aa-zTf"/>
+                            <constraint firstItem="1HH-vR-gTP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gRn-mv-Epm"/>
+                            <constraint firstItem="1HH-vR-gTP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t67-co-WBe"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="54c-EJ-5tX"/>
+                    <connections>
+                        <outlet property="collectionview" destination="1HH-vR-gTP" id="uFc-Ra-zoZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1043.5114503816794" y="3.5211267605633805"/>
+        </scene>
+        <!--Trendyol View Controller-->
+        <scene sceneID="iMd-Bq-dJ2">
+            <objects>
+                <viewController storyboardIdentifier="TrendyolViewController" id="GHK-uE-j2h" customClass="TrendyolViewController" customModule="Sunex_Trendyol" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s8k-yq-5sY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bdi-Al-EIK">
+                                <rect key="frame" x="16" y="118.99999999999999" width="361" height="34.333333333333329"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kU-o1-rHq">
+                                        <rect key="frame" x="0.0" y="0.0" width="170.66666666666666" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="collectionviewBG"/>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sunex"/>
+                                        <connections>
+                                            <action selector="sunexazButton:" destination="GHK-uE-j2h" eventType="touchUpInside" id="kt3-2m-hXX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfY-vV-01t">
+                                        <rect key="frame" x="190.66666666666663" y="0.0" width="170.33333333333337" height="34.333333333333336"/>
+                                        <color key="backgroundColor" name="Color"/>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Trendyol"/>
+                                        <connections>
+                                            <action selector="trendyolButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FPl-lo-mI0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seh-em-kSV">
+                                <rect key="frame" x="16" y="169.33333333333334" width="361" height="64"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4AR-y4-Cre">
+                                        <rect key="frame" x="12" y="8" width="337" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siz buradan bizim Türkiyə nömrəmizə gələn SMS kodlarını görə bilərsiniz. " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBN-xb-R5o">
+                                                <rect key="frame" x="0.0" y="0.0" width="337" height="44"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                                <color key="textColor" name="bannerColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="bannerBg"/>
+                                <constraints>
+                                    <constraint firstItem="4AR-y4-Cre" firstAttribute="top" secondItem="seh-em-kSV" secondAttribute="top" constant="8" id="DL2-QU-oCv"/>
+                                    <constraint firstAttribute="bottom" secondItem="4AR-y4-Cre" secondAttribute="bottom" constant="12" id="SEa-ER-UyB"/>
+                                    <constraint firstItem="4AR-y4-Cre" firstAttribute="leading" secondItem="seh-em-kSV" secondAttribute="leading" constant="12" id="WVz-Ws-tpy"/>
+                                    <constraint firstAttribute="trailing" secondItem="4AR-y4-Cre" secondAttribute="trailing" constant="12" id="hLT-86-ksJ"/>
+                                    <constraint firstAttribute="height" constant="64" id="knl-vZ-NFv"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Qlz-hp-6wh">
+                                <rect key="frame" x="0.0" y="249.33333333333337" width="393" height="520"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="520" id="J8o-mn-MjR"/>
+                                    <constraint firstAttribute="width" constant="393" id="emh-tF-96F"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kjx-zc-e3X">
+                                    <size key="itemSize" width="159" height="105"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XlI-Rs-cSx">
+                                        <rect key="frame" x="0.0" y="0.0" width="159" height="105"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1pq-7h-pEs">
+                                            <rect key="frame" x="0.0" y="0.0" width="159" height="105"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" name="collectionviewBG"/>
+                                        <size key="customSize" width="159" height="105"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q6O-Io-Yni"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bdi-Al-EIK" firstAttribute="top" secondItem="Q6O-Io-Yni" secondAttribute="top" constant="16" id="3Ew-vy-EP9"/>
+                            <constraint firstItem="seh-em-kSV" firstAttribute="leading" secondItem="Q6O-Io-Yni" secondAttribute="leading" constant="16" id="7lv-C8-8r9"/>
+                            <constraint firstItem="Qlz-hp-6wh" firstAttribute="leading" secondItem="Q6O-Io-Yni" secondAttribute="leading" id="9VX-0m-nB1"/>
+                            <constraint firstAttribute="trailing" secondItem="seh-em-kSV" secondAttribute="trailing" constant="16" id="Gg4-Pl-MuO"/>
+                            <constraint firstItem="bdi-Al-EIK" firstAttribute="leading" secondItem="Q6O-Io-Yni" secondAttribute="leading" constant="16" id="Go6-9L-9a1"/>
+                            <constraint firstItem="Q6O-Io-Yni" firstAttribute="trailing" secondItem="bdi-Al-EIK" secondAttribute="trailing" constant="16" id="OUi-rR-uKT"/>
+                            <constraint firstItem="seh-em-kSV" firstAttribute="top" secondItem="bdi-Al-EIK" secondAttribute="bottom" constant="16" id="P6h-GZ-tS4"/>
+                            <constraint firstItem="Qlz-hp-6wh" firstAttribute="top" secondItem="seh-em-kSV" secondAttribute="bottom" constant="16" id="vx7-PA-w75"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="g2w-zl-7HD"/>
+                    <connections>
+                        <outlet property="bannerView" destination="seh-em-kSV" id="azY-qT-qf8"/>
+                        <outlet property="collectionview" destination="Qlz-hp-6wh" id="0zq-Jq-uyk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nNK-u4-TK4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2764.1221374045799" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6bs-b2-NXT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Ol-kO-pxi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pkG-du-vra">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="aOa-Mq-0YD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmK-y2-rai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.79389312977099" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VcK-MC-aKC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qvg-9h-XGY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iid-3e-4w0">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GHK-uE-j2h" kind="relationship" relationship="rootViewController" id="GgB-Xr-p7d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFh-8s-ey6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837.4045801526718" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="Color">
+            <color red="0.88235294117647056" green="0.92549019607843142" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="bannerBg">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="bannerColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="collectionviewBG">
+            <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

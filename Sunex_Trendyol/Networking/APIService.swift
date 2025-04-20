@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol APIService {
+    func fetchNews(with request: SunexAzModel.Request, completion: @escaping (Result<SunexAzModel.Response, Error>) -> Void)
+}

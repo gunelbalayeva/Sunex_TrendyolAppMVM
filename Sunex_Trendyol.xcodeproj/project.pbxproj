@@ -13,6 +13,23 @@
 		CEE4D8BF2DB2A2470082AF68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8BD2DB2A2470082AF68 /* Main.storyboard */; };
 		CEE4D8C12DB2A24A0082AF68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8C02DB2A24A0082AF68 /* Assets.xcassets */; };
 		CEE4D8C42DB2A24A0082AF68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8C22DB2A24A0082AF68 /* LaunchScreen.storyboard */; };
+		CEE4D8CC2DB2A7500082AF68 /* TrendyolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8CB2DB2A7500082AF68 /* TrendyolViewController.swift */; };
+		CEE4D8D02DB2A7E10082AF68 /* ViewController+exc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8CF2DB2A7E10082AF68 /* ViewController+exc.swift */; };
+		CEE4D8D72DB2B04C0082AF68 /* CollectionView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8D62DB2B04C0082AF68 /* CollectionView+ext.swift */; };
+		CEE4D8DE2DB2B4700082AF68 /* TrendyOlCollectionVCcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8DC2DB2B4700082AF68 /* TrendyOlCollectionVCcell.swift */; };
+		CEE4D8DF2DB2B4700082AF68 /* TrendyOlCollectionVCcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8DD2DB2B4700082AF68 /* TrendyOlCollectionVCcell.xib */; };
+		CEE4D8E22DB2BE940082AF68 /* NotificationListApi.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8E12DB2BE940082AF68 /* NotificationListApi.json */; };
+		CEE4D8E52DB2BF020082AF68 /* TrendyolaListAi.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8E42DB2BF020082AF68 /* TrendyolaListAi.json */; };
+		CEE4D8EA2DB2EB820082AF68 /* SunexAzCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8E82DB2EB820082AF68 /* SunexAzCollectionViewCell.swift */; };
+		CEE4D8EB2DB2EB820082AF68 /* SunexAzCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE4D8E92DB2EB820082AF68 /* SunexAzCollectionViewCell.xib */; };
+		CEE4D8F12DB2F72D0082AF68 /* SunexAzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8F02DB2F72D0082AF68 /* SunexAzModel.swift */; };
+		CEE4D8F42DB2F7980082AF68 /* NetworkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8F32DB2F7980082AF68 /* NetworkServiceManager.swift */; };
+		CEE4D8F62DB2F8920082AF68 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8F52DB2F8920082AF68 /* APIService.swift */; };
+		CEE4D8F82DB2F8E40082AF68 /* URLSeassionsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8F72DB2F8E40082AF68 /* URLSeassionsAdapter.swift */; };
+		CEE4D8FA2DB303C20082AF68 /* SunexAzViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8F92DB303C20082AF68 /* SunexAzViewModel.swift */; };
+		CEE4D8FE2DB3D2860082AF68 /* TrendyOlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8FD2DB3D2860082AF68 /* TrendyOlModel.swift */; };
+		CEE4D9002DB3D2B70082AF68 /* TrendyOlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D8FF2DB3D2B70082AF68 /* TrendyOlViewModel.swift */; };
+		CEE4D9032DB3D6EA0082AF68 /* TrendyOlAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE4D9022DB3D6EA0082AF68 /* TrendyOlAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,23 @@
 		CEE4D8C02DB2A24A0082AF68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE4D8C32DB2A24A0082AF68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE4D8C52DB2A24A0082AF68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE4D8CB2DB2A7500082AF68 /* TrendyolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyolViewController.swift; sourceTree = "<group>"; };
+		CEE4D8CF2DB2A7E10082AF68 /* ViewController+exc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+exc.swift"; sourceTree = "<group>"; };
+		CEE4D8D62DB2B04C0082AF68 /* CollectionView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+ext.swift"; sourceTree = "<group>"; };
+		CEE4D8DC2DB2B4700082AF68 /* TrendyOlCollectionVCcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyOlCollectionVCcell.swift; sourceTree = "<group>"; };
+		CEE4D8DD2DB2B4700082AF68 /* TrendyOlCollectionVCcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendyOlCollectionVCcell.xib; sourceTree = "<group>"; };
+		CEE4D8E12DB2BE940082AF68 /* NotificationListApi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NotificationListApi.json; sourceTree = "<group>"; };
+		CEE4D8E42DB2BF020082AF68 /* TrendyolaListAi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TrendyolaListAi.json; sourceTree = "<group>"; };
+		CEE4D8E82DB2EB820082AF68 /* SunexAzCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunexAzCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEE4D8E92DB2EB820082AF68 /* SunexAzCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SunexAzCollectionViewCell.xib; sourceTree = "<group>"; };
+		CEE4D8F02DB2F72D0082AF68 /* SunexAzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunexAzModel.swift; sourceTree = "<group>"; };
+		CEE4D8F32DB2F7980082AF68 /* NetworkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceManager.swift; sourceTree = "<group>"; };
+		CEE4D8F52DB2F8920082AF68 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CEE4D8F72DB2F8E40082AF68 /* URLSeassionsAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSeassionsAdapter.swift; sourceTree = "<group>"; };
+		CEE4D8F92DB303C20082AF68 /* SunexAzViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunexAzViewModel.swift; sourceTree = "<group>"; };
+		CEE4D8FD2DB3D2860082AF68 /* TrendyOlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyOlModel.swift; sourceTree = "<group>"; };
+		CEE4D8FF2DB3D2B70082AF68 /* TrendyOlViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyOlViewModel.swift; sourceTree = "<group>"; };
+		CEE4D9022DB3D6EA0082AF68 /* TrendyOlAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyOlAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,128 @@
 		CEE4D8B62DB2A2470082AF68 /* Sunex_Trendyol */ = {
 			isa = PBXGroup;
 			children = (
-				CEE4D8B72DB2A2470082AF68 /* AppDelegate.swift */,
-				CEE4D8B92DB2A2470082AF68 /* SceneDelegate.swift */,
-				CEE4D8BB2DB2A2470082AF68 /* ViewController.swift */,
+				CEE4D8F22DB2F7710082AF68 /* Networking */,
+				CEE4D8E72DB2EB200082AF68 /* Cells */,
+				CEE4D8E62DB2EB150082AF68 /* Views */,
+				CEE4D8E02DB2BE2E0082AF68 /* MockyApp */,
+				CEE4D8D92DB2B1BB0082AF68 /* App */,
+				CEE4D8D82DB2B1A40082AF68 /* Model */,
+				CEE4D8D52DB2B01C0082AF68 /* Ext */,
 				CEE4D8BD2DB2A2470082AF68 /* Main.storyboard */,
 				CEE4D8C02DB2A24A0082AF68 /* Assets.xcassets */,
 				CEE4D8C22DB2A24A0082AF68 /* LaunchScreen.storyboard */,
 				CEE4D8C52DB2A24A0082AF68 /* Info.plist */,
 			);
 			path = Sunex_Trendyol;
+			sourceTree = "<group>";
+		};
+		CEE4D8D52DB2B01C0082AF68 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8CF2DB2A7E10082AF68 /* ViewController+exc.swift */,
+				CEE4D8D62DB2B04C0082AF68 /* CollectionView+ext.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		CEE4D8D82DB2B1A40082AF68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8FC2DB3D2620082AF68 /* TrendyOl */,
+				CEE4D8FB2DB3D2490082AF68 /* SunexAz */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEE4D8D92DB2B1BB0082AF68 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8B72DB2A2470082AF68 /* AppDelegate.swift */,
+				CEE4D8B92DB2A2470082AF68 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEE4D8E02DB2BE2E0082AF68 /* MockyApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8E12DB2BE940082AF68 /* NotificationListApi.json */,
+				CEE4D8E42DB2BF020082AF68 /* TrendyolaListAi.json */,
+			);
+			path = MockyApp;
+			sourceTree = "<group>";
+		};
+		CEE4D8E62DB2EB150082AF68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8CB2DB2A7500082AF68 /* TrendyolViewController.swift */,
+				CEE4D8BB2DB2A2470082AF68 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE4D8E72DB2EB200082AF68 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8ED2DB2EBBA0082AF68 /* SunexAz */,
+				CEE4D8EC2DB2EB9E0082AF68 /* TrendyOl */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CEE4D8EC2DB2EB9E0082AF68 /* TrendyOl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8DC2DB2B4700082AF68 /* TrendyOlCollectionVCcell.swift */,
+				CEE4D8DD2DB2B4700082AF68 /* TrendyOlCollectionVCcell.xib */,
+			);
+			path = TrendyOl;
+			sourceTree = "<group>";
+		};
+		CEE4D8ED2DB2EBBA0082AF68 /* SunexAz */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8E82DB2EB820082AF68 /* SunexAzCollectionViewCell.swift */,
+				CEE4D8E92DB2EB820082AF68 /* SunexAzCollectionViewCell.xib */,
+			);
+			path = SunexAz;
+			sourceTree = "<group>";
+		};
+		CEE4D8F22DB2F7710082AF68 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D9012DB3D6AD0082AF68 /* TrendyOlAPI */,
+				CEE4D8F32DB2F7980082AF68 /* NetworkServiceManager.swift */,
+				CEE4D8F52DB2F8920082AF68 /* APIService.swift */,
+				CEE4D8F72DB2F8E40082AF68 /* URLSeassionsAdapter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CEE4D8FB2DB3D2490082AF68 /* SunexAz */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8F02DB2F72D0082AF68 /* SunexAzModel.swift */,
+				CEE4D8F92DB303C20082AF68 /* SunexAzViewModel.swift */,
+			);
+			path = SunexAz;
+			sourceTree = "<group>";
+		};
+		CEE4D8FC2DB3D2620082AF68 /* TrendyOl */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D8FD2DB3D2860082AF68 /* TrendyOlModel.swift */,
+				CEE4D8FF2DB3D2B70082AF68 /* TrendyOlViewModel.swift */,
+			);
+			path = TrendyOl;
+			sourceTree = "<group>";
+		};
+		CEE4D9012DB3D6AD0082AF68 /* TrendyOlAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CEE4D9022DB3D6EA0082AF68 /* TrendyOlAPIService.swift */,
+			);
+			path = TrendyOlAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE4D8E52DB2BF020082AF68 /* TrendyolaListAi.json in Resources */,
 				CEE4D8C42DB2A24A0082AF68 /* LaunchScreen.storyboard in Resources */,
+				CEE4D8EB2DB2EB820082AF68 /* SunexAzCollectionViewCell.xib in Resources */,
 				CEE4D8C12DB2A24A0082AF68 /* Assets.xcassets in Resources */,
 				CEE4D8BF2DB2A2470082AF68 /* Main.storyboard in Resources */,
+				CEE4D8E22DB2BE940082AF68 /* NotificationListApi.json in Resources */,
+				CEE4D8DF2DB2B4700082AF68 /* TrendyOlCollectionVCcell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +289,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE4D9002DB3D2B70082AF68 /* TrendyOlViewModel.swift in Sources */,
+				CEE4D8F82DB2F8E40082AF68 /* URLSeassionsAdapter.swift in Sources */,
+				CEE4D8F12DB2F72D0082AF68 /* SunexAzModel.swift in Sources */,
 				CEE4D8BC2DB2A2470082AF68 /* ViewController.swift in Sources */,
+				CEE4D8D02DB2A7E10082AF68 /* ViewController+exc.swift in Sources */,
 				CEE4D8B82DB2A2470082AF68 /* AppDelegate.swift in Sources */,
+				CEE4D8F62DB2F8920082AF68 /* APIService.swift in Sources */,
+				CEE4D8D72DB2B04C0082AF68 /* CollectionView+ext.swift in Sources */,
 				CEE4D8BA2DB2A2470082AF68 /* SceneDelegate.swift in Sources */,
+				CEE4D8FA2DB303C20082AF68 /* SunexAzViewModel.swift in Sources */,
+				CEE4D8F42DB2F7980082AF68 /* NetworkServiceManager.swift in Sources */,
+				CEE4D8CC2DB2A7500082AF68 /* TrendyolViewController.swift in Sources */,
+				CEE4D8DE2DB2B4700082AF68 /* TrendyOlCollectionVCcell.swift in Sources */,
+				CEE4D8FE2DB3D2860082AF68 /* TrendyOlModel.swift in Sources */,
+				CEE4D8EA2DB2EB820082AF68 /* SunexAzCollectionViewCell.swift in Sources */,
+				CEE4D9032DB3D6EA0082AF68 /* TrendyOlAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
